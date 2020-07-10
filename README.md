@@ -71,4 +71,37 @@ u -> 5
 
 Ou seja, caso o parâmetro de `encode` seja `"hi there!"`, o retorno deverá ser `"h3 th2r2!"`.
 
-A segunda função deverá se chamar `decode` e faz o contrário de `encode` - ou seja, recebe uma string contendo números no lugar de letras minúsculas e retornará uma string com vogais minúsculas no lugar dos números (então, caso o parâmetro de `decode` seja `"h3 th2r2!"`, o retorno deverá ser `"hi there!"`. )
+A segunda função deverá se chamar `decode` e faz o contrário de `encode` - ou seja, recebe uma string contendo números no lugar de letras minúsculas e retornará uma string com vogais minúsculas no lugar dos números (então, caso o parâmetro de `decode` seja `"h3 th2r2!"`, o retorno deverá ser `"hi there!"`).
+
+**Bônus**
+=
+**11- Número de telefone** \
+Crie uma função chamada `generatePhoneNumber` que receba uma array com 11 números e retorne um número de telefone, respeitando parênteses, traços e espaços.
+
+Exemplo: caso o parâmetro da função seja [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], `generatePhoneNumber` deverá retornar `(12) 34567-891011`.
+
+Caso algum dos números da array seja menor que 0 ou se algum número se repetir 3 vezes ou mais, `generatePhoneNumber` deverá retornar a string `"não é possível gerar um número de telefone com esses valores"`.
+
+**12- Condição de existência de um triângulo** \
+Crie uma função chamada `triangleCheck` que deverá receber três números como parâmetro e retornar se é possível formar um triângulo com três retas nos valores apresentados.
+
+Para, tanto, tenha em mente algumas considerações:
+
+- Para que seja possível formar um triângulo, é necessário que a medida de qualquer um dos lados seja menor que a soma das medidas dos outros dois e maior que o valor absoluto da diferença entre essas medidas.
+
+- Para obter o valor absoluto de um número em Javascript, pesquise pela função `Math.abs`.
+
+- O retorno da sua função deverá ser um booleano.
+
+Exemplo: o retorno de `triangleCheck(10, 14, 8)` deverá ser `true`.
+
+**13- Analisando as datas** \
+Crie uma função chamada `dateCheck` que recebe três números inteiros entre 0 e 99.
+
+A função deve retornar se esses números, em alguma ordem podem formar uma data do século 20 no formato `DD-MM-AA`.
+
+Se não possível, em nenhuma ordem, formar uma data, sua função deve retornar `"números inválidos"`.
+
+Se os valores passados podem formar diversas datas, sua função deve retornar a string `"múltiplas datas"`
+
+Se os números podem formar apenas uma data, retorne uma string no formato `"DD/MM/AA"`.
