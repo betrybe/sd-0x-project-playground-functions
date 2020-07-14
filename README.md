@@ -146,3 +146,19 @@ String retornada:
 **Dica**
 
 Pesquise sobre `includes javascript`.
+
+**15- MonkeyTalk**
+-
+Crie uma função chamada `monkeyTalk` que receber uma frase como parâmetro.
+
+A função deve transformar as palavras da frase recebida em `Ook` ou em `Eek` e então retornar a frase com as palavras substituídas.
+
+As substituições ocorrem a seguinte forma:
+
+- Caso a palavra comece com uma vogal ela deverá ser transformada em `Eek`.
+
+- Caso comece com uma constante deverá ser transformada em `Ook`.
+
+- A primeira palavra da frase deve começar com letra maiúscula.
+
+- A frase deve terminar com um ponto final (`.`).
