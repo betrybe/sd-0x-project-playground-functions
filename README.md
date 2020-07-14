@@ -117,3 +117,32 @@ Se não possível, em nenhuma ordem, formar uma data, sua função deve retornar
 Se os valores passados podem formar diversas datas, sua função deve retornar a string `"múltiplas datas"`
 
 Se os números podem formar apenas uma data, retorne uma string no formato `"DD/MM/AA"`.
+
+**14- Bem vindo ao Bar da Trybe!**
+-
+Segundo as regras desse bar, a cada bebida deve-se beber um copo de água para que não tenha ressaca.
+
+Crie a função `hydrate` que recebe uma string, e retorne a sugestão de quantos copos de água você deve beber. Exemplos:
+```
+String recebida:
+  "1 cerveja"
+String retornada:
+  "1 copo de água"
+```
+
+```
+String recebida:
+  "1 cachaça, 5 cervejas e 1 copo de vinho"
+String retornada:
+  "7 copos de água"
+```
+
+**Notas**
+
+- Para simplificar, consideraremos que qualquer coisa com um número à frente é uma bebida.
+
+- O número na frente de cada bebida está no intervalo [1, 9].
+
+**Dica**
+
+Pesquise sobre `includes javascript`.
