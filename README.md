@@ -199,9 +199,11 @@ Se os valores passados podem formar diversas datas, sua função deve retornar a
 
 Se os números podem formar apenas uma data, retorne uma string no formato `"DD/MM/AA"`.
 
+**Para fins deste exercício, considere que todos os meses do ano possuem 30 dias.**
+
 **14- Bem vindo ao Bar da Trybe!**
 -
-Segundo as regras desse bar, a cada bebida deve-se beber um copo de água para que não tenha ressaca.
+Segundo as regras desse bar, a cada bebida deve-se beber um copo de água para que não se tenha ressaca.
 
 Crie a função `hydrate` que recebe uma string, e retorne a sugestão de quantos copos de água você deve beber. Exemplos:
 ```
@@ -220,7 +222,7 @@ String retornada:
 
 **Notas**
 
-- Para simplificar, consideraremos que qualquer coisa com um número à frente é uma bebida, **e que a sua string sempre virá com o formato quantidade (em número) + medida + bebida**.
+- Para simplificar, consideraremos que qualquer coisa com um número à frente é uma bebida **e que a sua string sempre virá com o formato quantidade (em número) + medida + bebida**.
 
 - O número na frente de cada bebida está no intervalo [1, 9].
 
@@ -238,11 +240,13 @@ As substituições ocorrem a seguinte forma:
 
 - Caso a palavra comece com uma vogal ela deverá ser transformada em `Eek`.
 
-- Caso comece com uma constante deverá ser transformada em `Ook`.
+- Caso comece com uma consoante, deverá ser transformada em `Ook`.
 
 - A primeira palavra da frase deve começar com letra maiúscula.
 
 - A frase deve terminar com um ponto final (`.`).
+
+Exemplo: `monkeyTalk('Hello World at Trybe')` deverá retornar `Ook ook eek ook.`
 
 ---
 
