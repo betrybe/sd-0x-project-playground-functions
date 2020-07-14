@@ -232,7 +232,7 @@ Pesquise sobre `includes javascript`.
 
 **15- MonkeyTalk**
 -
-Crie uma função chamada `monkeyTalk` que receber uma frase como parâmetro.
+Crie uma função chamada `monkeyTalk` que deve receber uma frase como parâmetro.
 
 A função deve transformar as palavras da frase recebida em `Ook` ou em `Eek` e então retornar a frase com as palavras substituídas.
 
