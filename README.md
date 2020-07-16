@@ -4,7 +4,7 @@ Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora
 
 Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir desse repositório, utilizando uma `branch` específica e um _Pull Request_ para colocar seus códigos.
 
-### 🗒ANTES DE COMEÇAR A DESENVOLVER:
+### 🗒 ANTES DE COMEÇAR A DESENVOLVER:
 
 1. Clone o repositório
   * `git clone https://github.com/tryber/sd-0x-project-playground-functions.git`.
@@ -59,7 +59,7 @@ O Prazo para entrega é de **7 dias corridos** após o último dia de projeto.
 
 Vale ressaltar que os projetos podem ter mais de um dia de duração, por isso o prazo de **7 dias** é contado à partir do último dia de projeto.
 
-## ⚠️ É importante que seus arquivos tenham exatamente estes nomes! ⚠️
+## ⚠️ É importante que seus arquivos não tenham o nome alterado! ⚠️
 
 Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://course.betrybe.com/intro/git/) sempre que precisar!
 
@@ -73,7 +73,7 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 ---
 
-### 👀Observações importantes:
+### 👀 Observações importantes:
 
 * Para verificar se a sua função foi criada corretamente você pode utilizar o `code runner` do vscode.
 
