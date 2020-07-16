@@ -19,7 +19,7 @@ function concatName() {
 }
 
 // Desafio 5
-function footPoints() {
+function footballPoints() {
   // seu código aqui
 }
 
@@ -85,7 +85,7 @@ module.exports = {
   decode,
   encode,
   fizzBuzz,
-  footPoints,
+  footballPoints,
   generatePhoneNumber,
   highestCount,
   hydrate,
