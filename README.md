@@ -1,4 +1,4 @@
-# Boas vindas ao repositório do projeto fakename!
+# Boas vindas ao repositório do projeto Playground Functions!
 
 Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #VQV 🚀
 
@@ -7,9 +7,9 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 ### 🗒ANTES DE COMEÇAR A DESENVOLVER:
 
 1. Clone o repositório
-  * `git clone https://github.com/tryber/sd-0x-project-fakename.git`.
+  * `git clone https://github.com/tryber/sd-0x-project-playground-functions.git`.
   * Entre na pasta do repositório que você acabou de clonar:
-    * `cd sd-0x-project-fakename`
+    * `cd sd-0x-project-playground-functions`
 
 2. Crie uma branch a partir da branch `master`
   * Verifique que você está na branch `master`
@@ -18,7 +18,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
     * Exemplo: `git checkout master`
   * Agora, crie uma branch onde você vai guardar os `commits` do seu projeto
     * Você deve criar uma branch no seguinte formato: `nome-de-usuario-nome-do-projeto`
-    * Exemplo: `git checkout -b joaozinho-lessons-learned-project`
+    * Exemplo: `git checkout -b joaozinho-playground-functions`
 
 3. Adicione as mudanças ao _stage_ do Git e faça um `commit`
   * Verifique que as mudanças ainda não estão no _stage_
@@ -33,16 +33,16 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
         * `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
 
 4. Adicione a sua branch com o novo `commit` ao repositório remoto
-  * Usando o exemplo anterior: `git push -u origin joaozinho-lessons-learned-project`
+  * Usando o exemplo anterior: `git push -u origin joaozinho-playground-functions`
 
 5. Crie um novo `Pull Request` _(PR)_
-  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-0x-project-fakename/pulls)
+  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-0x-project-playground-functions/pulls)
   * Clique no botão verde _"New pull request"_
   * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
   * Clique no botão verde _"Create pull request"_
   * Adicione uma descrição para o _Pull Request_, um título claro que o identifique, e clique no botão verde _"Create pull request"_
   * **Não se preocupe em preencher mais nada por enquanto!**
-  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-0x-project-fakename/pulls) e confira que o seu _Pull Request_ está criado
+  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-0x-project-playground-functions/pulls) e confira que o seu _Pull Request_ está criado
 ---
 
 # Entregáveis
@@ -100,13 +100,13 @@ Lembre-se que a área de um triângulo é calculada através da seguinte fórmul
 -
 Escreva uma função com o nome `splitSentence`, a qual receberá uma string e retornará uma array de strings.
 
-Exemplo: se a função receber a string `"go Trybe"`, o retorno deverá ser `["go", "Trybe"]`.
+Exemplo: se a função receber a string `"go Trybe"`, o retorno deverá ser `['go', 'Trybe']`.
 
 **4- Concatenação de strings**
 -
-Escreva uma função com o nome `concatName` que, ao receber uma array de strings, retorne uma string com o formato `ÚLTIMO NOME, PRIMEIRO NOME`, independente do tamanho da string.
+Escreva uma função com o nome `concatName` que, ao receber uma array de strings, retorne uma string com o formato `'ÚLTIMO NOME', 'PRIMEIRO NOME'`, independente do tamanho da array.
 
-Isso quer dizer que, caso o parâmetro passado para `concatName` seja a Array ["Lucas", "Cassiano", "Ferraz", "Paolillo"], a função deverá retornar `"Paolillo", "Lucas"`.
+Isso quer dizer que, caso o parâmetro passado para `concatName` seja a Array ["Lucas", "Cassiano", "Ferraz", "Paolillo"], a função deverá retornar `'Paolillo', 'Lucas'`.
 
 **5- Pontos no futebol**
 -
@@ -169,9 +169,9 @@ A segunda função deverá se chamar `decode` e faz o contrário de `encode` - o
 -
 Crie uma função chamada `generatePhoneNumber` que receba uma array com 11 números e retorne um número de telefone, respeitando parênteses, traços e espaços.
 
-Exemplo: caso o parâmetro da função seja [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], `generatePhoneNumber` deverá retornar `(12) 34567-891011`.
+Exemplo: caso o parâmetro da função seja [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1], `generatePhoneNumber` deverá retornar `(12) 34567-8901`.
 
-Caso algum dos números da array seja menor que 0 ou se algum número se repetir 3 vezes ou mais, `generatePhoneNumber` deverá retornar a string `"não é possível gerar um número de telefone com esses valores"`.
+Caso algum dos números da array seja menor que 0, maior que 9 ou se repetir 3 vezes ou mais, `generatePhoneNumber` deverá retornar a string `"não é possível gerar um número de telefone com esses valores"`.
 
 **12- Condição de existência de um triângulo**
 -
