@@ -222,7 +222,7 @@ String retornada:
 
 **Notas**
 
-- Para simplificar, consideraremos que qualquer coisa com um número à frente é uma bebida **e que a sua string sempre virá com o formato quantidade (em número) + medida + bebida**.
+- Para simplificar, consideraremos que qualquer coisa com um número à frente é uma bebida **e que a sua string sempre virá com o formato quantidade (em número) + tipo da bebida**.
 
 - O número na frente de cada bebida está no intervalo [1, 9].
 
