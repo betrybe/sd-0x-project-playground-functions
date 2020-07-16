@@ -143,7 +143,7 @@ Exemplo: caso o parâmetro seja [2, 15, 7, 9, 45], sua função deverá retornar
 
 **9- Equação de segundo grau**
 -
-Crie uma função chamada `"QuadEquation"` que receba três parâmetros `a`, `b` e `c` e retorne o resultado de uma equação de segundo grau - a ser calculada no formato `ax²+bx+c=0`. Lembrando que você precisará fazer cálculos distintos dependendo do valor de `delta`:
+Crie uma função chamada `"quadEquation"` que receba três parâmetros `a`, `b` e `c` e retorne o resultado de uma equação de segundo grau - a ser calculada no formato `ax²+bx+c=0`. Lembrando que você precisará fazer cálculos distintos dependendo do valor de `delta`:
 
 - Caso `delta` seja negativo, retorne a string `"não existem resultados reais para essa equação"`;
 - Caso `delta` seja igual a 0, retorne somente um resultado;
