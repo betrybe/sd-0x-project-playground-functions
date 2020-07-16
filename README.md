@@ -106,11 +106,11 @@ Exemplo: se a função receber a string `"go Trybe"`, o retorno deverá ser `['g
 -
 Escreva uma função com o nome `concatName` que, ao receber uma array de strings, retorne uma string com o formato `'ÚLTIMO NOME', 'PRIMEIRO NOME'`, independente do tamanho da array.
 
-Isso quer dizer que, caso o parâmetro passado para `concatName` seja a Array ["Lucas", "Cassiano", "Ferraz", "Paolillo"], a função deverá retornar `'Paolillo', 'Lucas'`.
+Isso quer dizer que, caso o parâmetro passado para `concatName` seja a Array ['Lucas', 'Cassiano', 'Ferraz', 'Paolillo'], a função deverá retornar `Paolillo, Lucas`.
 
 **5- Pontos no futebol**
 -
-Escreva uma função com o nome `FootPoints` que receba o número de vitórias (esse parâmetro deverá se chamar `v`), o número de derrotas (esse parâmetro deverá se chamar `d`) e o número de empates (esse parâmetro deverá se chamar `e`) e retorne a quantidade de pontos que o time marcou em um campeonato.
+Escreva uma função com o nome `footPoints` que receba o número de vitórias (esse parâmetro deverá se chamar `v`), o número de derrotas (esse parâmetro deverá se chamar `d`) e o número de empates (esse parâmetro deverá se chamar `e`) e retorne a quantidade de pontos que o time marcou em um campeonato.
 
 Para tanto, considere que cada vitória vale 3 pontos e cada empate vale 1 ponto.
 
