@@ -39,7 +39,7 @@ function fizzBuzz() {
 }
 
 // Desafio 9
-function QuadEquation() {
+function quadEquation() {
   // seu código aqui
 }
 
@@ -72,7 +72,7 @@ function hydrate() {
 }
 
 // Desafio 15
-function MonkeyTalk() {
+function monkeyTalk() {
   // seu código aqui
 }
 
@@ -89,8 +89,8 @@ module.exports = {
   generatePhoneNumber,
   highestCount,
   hydrate,
-  MonkeyTalk,
-  QuadEquation,
+  monkeyTalk,
+  quadEquation,
   splitSentence,
   triangleCheck,
 }
