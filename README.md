@@ -175,7 +175,7 @@ Caso algum dos números da array seja menor que 0, maior que 9 ou se repetir 3 v
 
 **12- Condição de existência de um triângulo**
 -
-Crie uma função chamada `triangleCheck` que deverá receber três números como parâmetro e retornar se é possível formar um triângulo com três retas nos valores apresentados.
+Um triângulo é composto de três linhas: lineA, lineB e lineC. Crie uma função chamada triangleCheck que deverá receber as três linhas como parâmetro e retornar se é possível forma um triângulo com os valores apresentados de cada linha
 
 Para, tanto, tenha em mente algumas considerações:
 
