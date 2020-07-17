@@ -104,13 +104,13 @@ Exemplo: se a função receber a string `"go Trybe"`, o retorno deverá ser `['g
 
 **4 - Concatenação de strings**
 -
-Escreva uma função com o nome `concatName` que, ao receber uma array de strings, retorne uma string com o formato `'ÚLTIMO NOME', 'PRIMEIRO NOME'`, independente do tamanho da array.
+Escreva uma função com o nome `concatName` que, ao receber uma array de strings, retorne uma string com o formato `'ÚLTIMO ITEM, PRIMEIRO ITEM'`, independente do tamanho da array.
 
 Isso quer dizer que, caso o parâmetro passado para `concatName` seja a Array ['Lucas', 'Cassiano', 'Ferraz', 'Paolillo'], a função deverá retornar `Paolillo, Lucas`.
 
 **5 - Pontos no futebol**
 -
-Escreva uma função com o nome `footballPoints` que receba o número de vitórias (esse parâmetro deverá se chamar `v`), o número de derrotas (esse parâmetro deverá se chamar `d`) e o número de empates (esse parâmetro deverá se chamar `e`) e retorne a quantidade de pontos que o time marcou em um campeonato.
+Escreva uma função com o nome `footballPoints` que receba o número de vitórias (esse parâmetro deverá se chamar `wins`) e o número de empates (esse parâmetro deverá se chamar `ties`) e retorne a quantidade de pontos que o time marcou em um campeonato.
 
 Para tanto, considere que cada vitória vale 3 pontos e cada empate vale 1 ponto.
 
@@ -124,7 +124,7 @@ Exemplo: caso o parâmetro de `highestCount` seja uma array com valores `[9, 1, 
 -
 Imagine que existem dois gatos, os quais chamaremos de `cat1` e `cat2`, e que ambos estão atrás de um rato chamado `mouse`. Imagine que cada um dos três animais está em uma posição representada por um número.
 
-Sabendo disso, crie uma função chamada `catAndMouse` que, ao receber uma array contendo a posição de `mouse`, `cat1` e `cat2`, **nessa ordem**, calcule as distâncias entre o rato e os gatos e retorne qual dos felinos irá alcançar o rato primeiro (sendo aquele que estará mais perto).
+Sabendo disso, crie uma função chamada `catAndMouse` que, ao receber a posição de `mouse`, `cat1` e `cat2`, **nessa ordem**, calcule as distâncias entre o rato e os gatos e retorne qual dos felinos irá alcançar o rato primeiro (sendo aquele que estará mais perto).
 
 Exemplo: caso o gato `cat2` esteja a 2 unidades de distância do rato, e `cat1` esteja a 3 unidades, sua função deverá retornar `cat2`.
 
@@ -143,7 +143,7 @@ Exemplo: caso o parâmetro seja [2, 15, 7, 9, 45], sua função deverá retornar
 
 **9 - Codifique e Decodifique**
 -
-Crie duas funções: a primeira deverá se chamar `encode` e, ao receber uma string como parâmetro, deverá trocar todas as letras minúsculas por números, de acordo com o formato a seguir:
+Crie duas funções: a primeira deverá se chamar `encode` e, ao receber uma string como parâmetro, deverá trocar todas as vogais minúsculas por números, de acordo com o formato a seguir:
 
 a -> 1 \
 e -> 2 \
@@ -163,7 +163,9 @@ Crie uma função chamada `generatePhoneNumber` que receba uma array com 11 núm
 
 Exemplo: caso o parâmetro da função seja [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1], `generatePhoneNumber` deverá retornar `(12) 34567-8901`.
 
-Caso algum dos números da array seja menor que 0, maior que 9 ou se repetir 3 vezes ou mais, `generatePhoneNumber` deverá retornar a string `"não é possível gerar um número de telefone com esses valores"`.
+- Se a função receber um array com tamanho diferente de 11, a mesma deve retornar `"Array com tamanho incorreto."`.
+
+- Caso algum dos números da array seja menor que 0, maior que 9 ou se repita 3 vezes ou mais, `generatePhoneNumber` deverá retornar a string `"não é possível gerar um número de telefone com esses valores"`.
 
 **11 - Condição de existência de um triângulo**
 -
@@ -222,7 +224,7 @@ String retornada:
 
 Pesquise sobre `includes javascript`.
 
-**15- MonkeyTalk**
+**14- MonkeyTalk**
 -
 Crie uma função chamada `monkeyTalk` que deve receber uma frase como parâmetro.
 
