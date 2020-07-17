@@ -4,7 +4,8 @@
     "no-console": "off",
     "prefer-arrow-callback": "off",
     "func-names": "off",
-    "no-param-reassign": "off"
+    "no-param-reassign": "off",
+    "prefer-const": "off"
   },
   "env": {
     "browser": true,
