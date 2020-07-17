@@ -1,4 +1,4 @@
-# Boas vindas ao repositório do Projeto PLayground Functions!
+# Boas vindas ao repositório do Projeto Playground Functions!
 
 Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #VQV 🚀
 
@@ -49,7 +49,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 
 Para entregar o seu projeto você deverá criar um _Pull Request_ neste repositório.
 
-Este _Pull Request_ deverá conter os arquivos `.js` com suas funções implementadas.
+Este _Pull Request_ deverá conter o arquivo `challenges.js` com suas funções implementadas.
 
 ## Prazo para entrega
 
@@ -75,11 +75,11 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 ### 👀 Observações importantes:
 
-* Para verificar se a sua função foi criada corretamente você pode utilizar o `code runner` do vscode.
+* Para verificar se a sua função foi criada corretamente você pode utilizar o `code runner` do _VSCode_.
 
 ---
 
-**1- Usando o operador &&**
+**1 - Usando o operador &&**
 -
 JavaScript possui um operador lógico `&&`, o qual recebe dois valores e retorna `true` se ambos os valores são verdadeiros, e retorna `false` se algum dos valores não o for.
 
@@ -90,37 +90,37 @@ Considerando isso, crie uma função chamada `compareTrue` que, ao receber dois 
 
 Faça a função utilizando o operador `&&`.
 
-**2- Área do triângulo** 
+**2 - Área do triângulo** 
 -
 Escreva uma função com o nome `calcArea` que receba um valor de base (chamado `base`) e outro de altura (chamado `height`) de um triângulo e retorne o cálculo da sua área.
 
 Lembre-se que a área de um triângulo é calculada através da seguinte fórmula: (base * altura) / 2.
 
-**3- Dividindo a frase**
+**3 - Dividindo a frase**
 -
 Escreva uma função com o nome `splitSentence`, a qual receberá uma string e retornará uma array de strings separadas por cada espaço na string original.
 
 Exemplo: se a função receber a string `"go Trybe"`, o retorno deverá ser `['go', 'Trybe']`.
 
-**4- Concatenação de strings**
+**4 - Concatenação de strings**
 -
 Escreva uma função com o nome `concatName` que, ao receber uma array de strings, retorne uma string com o formato `'ÚLTIMO NOME', 'PRIMEIRO NOME'`, independente do tamanho da array.
 
 Isso quer dizer que, caso o parâmetro passado para `concatName` seja a Array ['Lucas', 'Cassiano', 'Ferraz', 'Paolillo'], a função deverá retornar `Paolillo, Lucas`.
 
-**5- Pontos no futebol**
+**5 - Pontos no futebol**
 -
 Escreva uma função com o nome `footballPoints` que receba o número de vitórias (esse parâmetro deverá se chamar `v`), o número de derrotas (esse parâmetro deverá se chamar `d`) e o número de empates (esse parâmetro deverá se chamar `e`) e retorne a quantidade de pontos que o time marcou em um campeonato.
 
 Para tanto, considere que cada vitória vale 3 pontos e cada empate vale 1 ponto.
 
-**6- Repetição do maior número**
+**6 - Repetição do maior número**
 -
 Escreva uma função chamada `highestCount` que, ao receber uma array de números, retorne  a quantidade de vezes que o maior deles se repete.
 
 Exemplo: caso o parâmetro de `highestCount` seja uma array com valores `[9, 1, 2, 3, 9, 5, 7]`, a função deverá retornar `2`, que é a quantidade de vezes que o número `9` (maior número do array) se repete.
 
-**7- Caça ao rato**
+**7 - Caça ao rato**
 -
 Imagine que existem dois gatos, os quais chamaremos de `cat1` e `cat2`, e que ambos estão atrás de um rato chamado `mouse`. Imagine que cada um dos três animais está em uma posição representada por um número.
 
@@ -130,7 +130,7 @@ Exemplo: caso o gato `cat2` esteja a 2 unidades de distância do rato, e `cat1` 
 
 Caso os gatos estejam na mesma distância do rato, a função deverá retornar a string `"os gatos trombam e o rato foge"`.
 
-**8- FizzBuzz**
+**8 - FizzBuzz**
 -
 Crie uma função chamada `fizzBuzz` que receba uma array de números e retorne uma array da seguinte forma:
 
@@ -141,15 +141,7 @@ Crie uma função chamada `fizzBuzz` que receba uma array de números e retorne 
 
 Exemplo: caso o parâmetro seja [2, 15, 7, 9, 45], sua função deverá retornar `["bug!", "fizzBuzz", "bug!", "fizz", "fizzBuzz"]`.
 
-**9- Equação de segundo grau**
--
-Crie uma função chamada `"quadEquation"` que receba três parâmetros `a`, `b` e `c` e retorne o resultado de uma equação de segundo grau - a ser calculada no formato `ax²+bx+c=0`. Lembrando que você precisará fazer cálculos distintos dependendo do valor de `delta`:
-
-- Caso `delta` seja negativo, retorne a string `"não existem resultados reais para essa equação"`;
-- Caso `delta` seja igual a 0, retorne somente um resultado;
-- Caso `delta` seja maior que 0, retorne um array com os dois resultados;
-
-**10- Codifique e Decodifique**
+**9 - Codifique e Decodifique**
 -
 Crie duas funções: a primeira deverá se chamar `encode` e, ao receber uma string como parâmetro, deverá trocar todas as letras minúsculas por números, de acordo com o formato a seguir:
 
@@ -165,7 +157,7 @@ A segunda função deverá se chamar `decode` e faz o contrário de `encode` - o
 
 **Bônus**
 =
-**11- Número de telefone**
+**10 - Número de telefone**
 -
 Crie uma função chamada `generatePhoneNumber` que receba uma array com 11 números e retorne um número de telefone, respeitando parênteses, traços e espaços.
 
@@ -173,7 +165,7 @@ Exemplo: caso o parâmetro da função seja [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1], `
 
 Caso algum dos números da array seja menor que 0, maior que 9 ou se repetir 3 vezes ou mais, `generatePhoneNumber` deverá retornar a string `"não é possível gerar um número de telefone com esses valores"`.
 
-**12- Condição de existência de um triângulo**
+**11 - Condição de existência de um triângulo**
 -
 Um triângulo é composto de três linhas: lineA, lineB e lineC. Crie uma função chamada triangleCheck que deverá receber as três linhas como parâmetro e retornar se é possível forma um triângulo com os valores apresentados de cada linha
 
@@ -187,7 +179,7 @@ Para, tanto, tenha em mente algumas considerações:
 
 Exemplo: o retorno de `triangleCheck(10, 14, 8)` deverá ser `true`.
 
-**13- Analisando as datas**
+**12 - Analisando as datas**
 -
 Crie uma função chamada `dateCheck` que recebe três números inteiros entre 0 e 99.
 
@@ -201,7 +193,7 @@ Se os números podem formar apenas uma data, retorne uma string no formato `"DD/
 
 **Para fins deste exercício, considere que todos os meses do ano possuem 30 dias.**
 
-**14- Bem vindo ao Bar da Trybe!**
+**13 - Bem vindo ao Bar da Trybe!**
 -
 Segundo as regras desse bar, a cada bebida deve-se beber um copo de água para que não se tenha ressaca.
 
