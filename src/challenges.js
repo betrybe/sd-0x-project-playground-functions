@@ -39,15 +39,15 @@ function fizzBuzz() {
 }
 
 // Desafio 9
-function quadEquation() {
-  // seu código aqui
-}
-
-// Desafio 10
 function encode() {
   // seu código aqui
 }
 function decode() {
+  // seu código aqui
+}
+
+// Desafio 10
+function techList() {
   // seu código aqui
 }
 
@@ -62,35 +62,24 @@ function triangleCheck() {
 }
 
 // Desafio 13
-function dateCheck() {
-  // seu código aqui
-}
-
-// Desafio 14
 function hydrate() {
   // seu código aqui
 }
 
-// Desafio 15
-function monkeyTalk() {
-  // seu código aqui
-}
 
 module.exports = {
   calcArea,
   catAndMouse,
   compareTrue,
   concatName,
-  dateCheck,
   decode,
   encode,
   fizzBuzz,
   footballPoints,
   generatePhoneNumber,
+  techList,
   highestCount,
   hydrate,
-  monkeyTalk,
-  quadEquation,
   splitSentence,
   triangleCheck,
 }
