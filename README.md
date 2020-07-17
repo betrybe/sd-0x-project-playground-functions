@@ -79,7 +79,7 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 ### 👀 Observações importantes:
 
-* Para verificar se a sua função foi criada corretamente você pode utilizar o `code runner` do _VSCode_.
+* Para verificar se a sua função foi criada corretamente você pode instalar a extensão `code runner` no _VSCode_.
 
 ---
 
@@ -160,7 +160,7 @@ Ou seja, caso o parâmetro de `encode` seja `"hi there!"`, o retorno deverá ser
 A segunda função deverá se chamar `decode` e faz o contrário de `encode` - ou seja, recebe uma string contendo números no lugar de letras minúsculas e retornará uma string com vogais minúsculas no lugar dos números (então, caso o parâmetro de `decode` seja `"h3 th2r2!"`, o retorno deverá ser `"hi there!"`).
 
 **10 - Lista de tecnologias**
-
+-
 Crie uma função que recebe um array de nomes de tecnologias que você quer aprender. Essa função deve receber também um segundo parâmetro chamado `name` com um nome.
 
 Para cada tecnologia no array, crie um objeto com a seguinte estrutura:
@@ -269,7 +269,7 @@ String retornada:
 
 - O número na frente de cada bebida está no intervalo entre 1 e 9.
 
-**Dica:** pesquise por algo similar à `get all integers inside a string js`.
+**Dica:** pesquise por algo similar a `get all integers inside a string js`.
 
 ---
 
