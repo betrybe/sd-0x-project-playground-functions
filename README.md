@@ -155,9 +155,61 @@ Ou seja, caso o parâmetro de `encode` seja `"hi there!"`, o retorno deverá ser
 
 A segunda função deverá se chamar `decode` e faz o contrário de `encode` - ou seja, recebe uma string contendo números no lugar de letras minúsculas e retornará uma string com vogais minúsculas no lugar dos números (então, caso o parâmetro de `decode` seja `"h3 th2r2!"`, o retorno deverá ser `"hi there!"`).
 
+**10 - Lista de tecnologias**
+
+Crie uma função que recebe um array de nomes de tecnologias que você quer aprender. Essa função deve receber também um segundo parâmetro chamado `name` com um nome.
+
+Para cada tecnologia no array, crie um objeto com a seguinte estrutura:
+
+```
+{
+  tech: "NomeTech",
+  nome: name
+}
+```
+
+Estes objetos devem ser inseridos em uma nova lista em ordem crescente a partir do campo `tech` no objeto.
+
+A saída da sua função deve ser uma lista de objetos ordenada pelo campo `tech` dos objetos com o formato acima.
+
+Exemplo:
+```
+Entradas da função:
+
+["React", "Jest", "HTML", "CSS", "JavaScript"]
+"Lucas"
+
+// Saída:
+
+[
+  {
+    tech: "CSS",
+    name: "Lucas"
+  },
+  {
+    tech: "HTML",
+    name: "Lucas"
+  },
+  {
+    tech: "JavaScript",
+    name: "Lucas"
+  },
+  {
+    tech: "Jest",
+    name: "Lucas"
+  },
+  {
+    tech: "React",
+    name: "Lucas"
+  }
+]
+
+Caso o array venha vazio sua função deve retornar 'Vazio!'
+
+```
 **Bônus**
 =
-**10 - Número de telefone**
+**11 - Número de telefone**
 -
 Crie uma função chamada `generatePhoneNumber` que receba uma array com 11 números e retorne um número de telefone, respeitando parênteses, traços e espaços.
 
@@ -167,33 +219,19 @@ Exemplo: caso o parâmetro da função seja [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1], `
 
 - Caso algum dos números da array seja menor que 0, maior que 9 ou se repita 3 vezes ou mais, `generatePhoneNumber` deverá retornar a string `"não é possível gerar um número de telefone com esses valores"`.
 
-**11 - Condição de existência de um triângulo**
+**12 - Condição de existência de um triângulo**
 -
-Um triângulo é composto de três linhas: lineA, lineB e lineC. Crie uma função chamada triangleCheck que deverá receber as três linhas como parâmetro e retornar se é possível forma um triângulo com os valores apresentados de cada linha
+Um triângulo é composto de três linhas: `lineA`, `lineB` e `lineC`. Crie uma função chamada `triangleCheck` que deverá receber as três linhas como parâmetro e retornar se é possível formar um triângulo com os valores apresentados de cada linha
 
-Para, tanto, tenha em mente algumas considerações:
+Para tanto, tenha em mente algumas considerações:
 
 - Para que seja possível formar um triângulo, é necessário que a medida de qualquer um dos lados seja menor que a soma das medidas dos outros dois e maior que o valor absoluto da diferença entre essas medidas.
 
-- Para obter o valor absoluto de um número em Javascript, pesquise pela função `Math.abs`.
+- Para obter o valor absoluto de um número em JavaScript, pesquise pela função `Math.abs`.
 
 - O retorno da sua função deverá ser um booleano.
 
 Exemplo: o retorno de `triangleCheck(10, 14, 8)` deverá ser `true`.
-
-**12 - Analisando as datas**
--
-Crie uma função chamada `dateCheck` que recebe três números inteiros entre 0 e 99.
-
-A função deve retornar se esses números, em alguma ordem podem formar uma data do século 20 no formato `DD-MM-AA`.
-
-Se não possível, em nenhuma ordem, formar uma data, sua função deve retornar `"números inválidos"`.
-
-Se os valores passados podem formar diversas datas, sua função deve retornar a string `"múltiplas datas"`
-
-Se os números podem formar apenas uma data, retorne uma string no formato `"DD/MM/AA"`.
-
-**Para fins deste exercício, considere que todos os meses do ano possuem 30 dias.**
 
 **13 - Bem vindo ao Bar da Trybe!**
 -
@@ -214,33 +252,20 @@ String retornada:
   "7 copos de água"
 ```
 
+```
+String recebida:
+  "1 cachaça, 5 cervejas e 1 copo de vinho"
+String retornada:
+  "7 copos de água"
+```
+
 **Notas**
 
 - Para simplificar, consideraremos que qualquer coisa com um número à frente é uma bebida **e que a sua string sempre virá com o formato quantidade (em número) + tipo da bebida**.
 
-- O número na frente de cada bebida está no intervalo [1, 9].
+- O número na frente de cada bebida está no intervalo entre 1 e 9.
 
-**Dica**
-
-Pesquise sobre `includes javascript`.
-
-**14- MonkeyTalk**
--
-Crie uma função chamada `monkeyTalk` que deve receber uma frase como parâmetro.
-
-A função deve transformar as palavras da frase recebida em `Ook` ou em `Eek` e então retornar a frase com as palavras substituídas.
-
-As substituições ocorrem a seguinte forma:
-
-- Caso a palavra comece com uma vogal ela deverá ser transformada em `Eek`.
-
-- Caso comece com uma consoante, deverá ser transformada em `Ook`.
-
-- A primeira palavra da frase deve começar com letra maiúscula.
-
-- A frase deve terminar com um ponto final (`.`).
-
-Exemplo: `monkeyTalk('Hello World at Trybe')` deverá retornar `Ook ook eek ook.`
+**Dica:** pesquise por algo similar à `get all integers inside a string js`.
 
 ---
 

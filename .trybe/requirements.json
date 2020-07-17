@@ -37,15 +37,15 @@
       "bonus": false
     },
     { 
+      "description": "Lista de tecnologias",
+      "bonus": false
+    },
+    { 
       "description": "Número de telefone",
       "bonus": true
     },
     { 
       "description": "Condição de existência de um triângulo",
-      "bonus": true
-    },
-    { 
-      "description": "Analisando as datas",
       "bonus": true
     },
     { 
