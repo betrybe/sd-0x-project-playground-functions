@@ -51,6 +51,10 @@ Para entregar o seu projeto você deverá criar um _Pull Request_ neste reposit�
 
 Este _Pull Request_ deverá conter o arquivo `challenges.js` com suas funções implementadas.
 
+Todas as funções já estão declaradas no arquivo `challenges.js`. Você pode criar outras funções para auxiliarem as já existentes. Contudo **Não altere o nome das funções que já existem**.
+
+**Os parâmetros das funções já existentes podem e devem ser alterados.**
+
 ## Prazo para entrega
 
 O Prazo para entrega é de **7 dias corridos** após o último dia de projeto.

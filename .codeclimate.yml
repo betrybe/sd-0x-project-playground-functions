@@ -33,7 +33,6 @@ checks:
 exclude_patterns:
 - "node_modules/"
 - "test/"
-- "src/data.js"
 plugins:
   editorconfig:
     enabled: true
