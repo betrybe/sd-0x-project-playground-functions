@@ -203,10 +203,10 @@ Entradas da função:
     name: "Lucas"
   }
 ]
+```
 
 Caso o array venha vazio sua função deve retornar 'Vazio!'
 
-```
 **Bônus**
 =
 **11 - Número de telefone**
