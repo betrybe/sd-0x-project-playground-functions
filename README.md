@@ -168,7 +168,7 @@ Para cada tecnologia no array, crie um objeto com a seguinte estrutura:
 ```
 {
   tech: "NomeTech",
-  nome: name
+  name: name
 }
 ```
 
