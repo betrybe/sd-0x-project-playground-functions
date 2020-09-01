@@ -1,55 +1,55 @@
 {
   "requirements": [
     { 
-      "description": "Usando o operador &&",
+      "description": "1 - Usando o operador &&",
       "bonus": false
     },
     { 
-      "description": "Área do triângulo",
+      "description": "2 - Área do triângulo",
       "bonus": false
     },
     { 
-      "description": "Dividindo a frase",
+      "description": "3 - Dividindo a frase",
       "bonus": false
     },
     { 
-      "description": "Concatenação de strings",
+      "description": "4 - Concatenação de strings",
       "bonus": false
     },
     { 
-      "description": "Pontos no futebol",
+      "description": "5 - Pontos no futebol",
       "bonus": false
     },
     { 
-      "description": "Repetição do maior número",
+      "description": "6 - Repetição do maior número",
       "bonus": false
     },
     { 
-      "description": "Caça ao rato",
+      "description": "7 - Caça ao rato",
       "bonus": false
     },
     { 
-      "description": "FizzBuzz",
+      "description": "8 - FizzBuzz",
       "bonus": false
     },
     { 
-      "description": "Codifique e Decodifique",
+      "description": "9 - Codifique e Decodifique",
       "bonus": false
     },
     { 
-      "description": "Lista de tecnologias",
+      "description": "10 - Lista de tecnologias",
       "bonus": false
     },
     { 
-      "description": "Número de telefone",
+      "description": "11 - Número de telefone",
       "bonus": true
     },
     { 
-      "description": "Condição de existência de um triângulo",
+      "description": "12 - Condição de existência de um triângulo",
       "bonus": true
     },
     { 
-      "description": "Bem vindo ao Bar da Trybe!",
+      "description": "13 - Bem vindo ao Bar da Trybe!",
       "bonus": true
     }
   ]
