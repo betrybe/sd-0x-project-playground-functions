@@ -3,6 +3,18 @@ on:
     types: [opened, synchronize]
 
 jobs:
+  eslint:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1.4.4
+        with:
+          node-version: '12'
+      - name: ESLint
+        uses: betrybe/eslint-linter-action@v2.2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
   evaluator_job:
     runs-on: ubuntu-18.04
     name: Evaluator job
@@ -20,3 +32,4 @@ jobs:
           evaluation-data: ${{ steps.test.outputs.result }}
           environment: staging
           pr-number: ${{ github.event.number }}
+      
