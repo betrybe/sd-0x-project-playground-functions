@@ -8,6 +8,6 @@
     "stylelint-config-standard": "^20.0.0"
   },
   "scripts": {
-    "lint": "eslint --no-inline-config --ext .js,.jsx --no-error-on-unmatched-pattern -c .eslintrc.json .",
+    "lint": "eslint --no-inline-config --ext .js,.jsx --no-error-on-unmatched-pattern -c .eslintrc.json ."
   }
 }
