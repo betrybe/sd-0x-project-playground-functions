@@ -22,6 +22,7 @@
     "max-params": ["error", 4],
     "max-lines": ["error", 250],
     "max-lines-per-function": ["error", 20],
+    "max-len": ["error", { "code": 100 }, {"ignoreComments": true} ],
     "complexity": ["error", 5],
     "import/no-extraneous-dependencies": ["off"],
     "sonarjs/cognitive-complexity": ["error", 5],
