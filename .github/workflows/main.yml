@@ -22,7 +22,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Evaluator step
         id: test
-        uses: betrybe/jest-evaluator-action@v3
+        uses: betrybe/jest-evaluator-action@v7
         with:
           repository-test-name: 'betrybe/sd-0x-project-playground-functions-tests'
           repository-test-branch: 'master'
