@@ -1,55 +1,55 @@
 {
   "requirements": [
     { 
-      "description": "1 - Usando o operador &&",
+      "description": "1 - Crie uma função usando o operador &&",
       "bonus": false
     },
     { 
-      "description": "2 - Área do triângulo",
+      "description": "2 - Crie uma função que calcule a área do triângulo",
       "bonus": false
     },
     { 
-      "description": "3 - Dividindo a frase",
+      "description": "3 - Crie uma função que divida a frase",
       "bonus": false
     },
     { 
-      "description": "4 - Concatenação de strings",
+      "description": "4 - Crie uma função que use concatenação de strings",
       "bonus": false
     },
     { 
-      "description": "5 - Pontos no futebol",
+      "description": "5 - Crie uma função que calcule a quantidade de pontos no futebol",
       "bonus": false
     },
     { 
-      "description": "6 - Repetição do maior número",
+      "description": "6 - Crie uma função que calcule a repetição do maior número",
       "bonus": false
     },
     { 
-      "description": "7 - Caça ao rato",
+      "description": "7 - Crie uma função de Caça ao rato",
       "bonus": false
     },
     { 
-      "description": "8 - FizzBuzz",
+      "description": "8 - Crie uma função FizzBuzz",
       "bonus": false
     },
     { 
-      "description": "9 - Codifique e Decodifique",
+      "description": "9 - Crie uma função que Codifique e Decodifique",
       "bonus": false
     },
     { 
-      "description": "10 - Lista de tecnologias",
+      "description": "10 - Crie uma função de Lista de tecnologias",
       "bonus": false
     },
     { 
-      "description": "11 - Número de telefone",
+      "description": "11 - Crie uma função de Número de telefone",
       "bonus": true
     },
     { 
-      "description": "12 - Condição de existência de um triângulo",
+      "description": "12 - Crie uma função de Condição de existência de um triângulo",
       "bonus": true
     },
     { 
-      "description": "13 - Bem vindo ao Bar da Trybe!",
+      "description": "13 - Crie uma função de Bem vindo ao Bar da Trybe!",
       "bonus": true
     }
   ]
