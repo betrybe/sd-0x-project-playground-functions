@@ -1,11 +1,10 @@
 ### Termos e acordos
 
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do
-Manual da Pessoa Estudante da Trybe.
+Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.
 
 # Boas vindas ao repositório do Projeto Playground Functions!
 
-Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #VQV 🚀
+Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Atenção a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #VQV 🚀
 
 Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir desse repositório, utilizando uma `branch` específica e um _Pull Request_ para colocar seus códigos.
 
@@ -46,11 +45,11 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 
 - Escrever códigos em JavaScript que usam variáveis e tipos primitivos;
 - Utilizar conceitos da linguagem como a tipagem dinâmica e operadores lógicos/aritméticos/de atribuição no seu código;
-- Criar códigos que usam estruturas condicionais, como o if/else .
+- Criar códigos que usam estruturas condicionais, como o if/else ;
 - Manipular arrays (listas);
 - Utilizar o comando for ;
 - Quebrar grandes problemas em pequenos;
-- Utilizar a lógica de programação na resolução de problemas.
+- Utilizar a lógica de programação na resolução de problemas;
 - Manipular objetos;
 - Utilizar o comando for/in ;
 - Utilizar funções para organizar e estruturar o seu código;
@@ -73,7 +72,7 @@ Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://
 
 ## O que deverá ser desenvolvido
 
-- Você vai implementar funções a partir de requisitos.
+- Você vai implementar funções a partir de requisitos;
 - Você vai desenvolver funções seguindo os requisitos especificados para o correto comportamento de cada uma delas.
 
 ## Data de Entrega
@@ -100,8 +99,8 @@ Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://
   * Se não estiver, mude para a branch `master`
     * Exemplo: `git checkout master`
   * Agora, crie uma branch onde você vai guardar os `commits` do seu projeto
-    * Você deve criar uma branch no seguinte formato: `nome-de-usuario-nome-do-projeto`
-    * Exemplo: `git checkout -b joaozinho-project-playground-functions`
+    * Você deve criar uma branch no seguinte formato: `nome-sobrenome-playground-functions`
+    * Exemplo: `git checkout -b joao-silva-playground-functions`
 
 4. Adicione as mudanças ao _stage_ do Git e faça um `commit`
   * Verifique que as mudanças ainda não estão no _stage_
@@ -116,24 +115,23 @@ Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://
         * `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
 
 5. Adicione a sua branch com o novo `commit` ao repositório remoto
-  * Usando o exemplo anterior: `git push -u origin joaozinho-project-playground-functions`
+  * Usando o exemplo anterior: `git push -u origin joao-silva-playground-functions`
 
 6. Crie um novo `Pull Request` _(PR)_
   * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-0x-project-playground-functions/pulls)
   * Clique no botão verde _"New pull request"_
   * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
-  * Clique no botão verde _"Create pull request"_
-  * Adicione uma descrição para o _Pull Request_, um título que o identifique, e clique no botão verde _"Create pull request"_. Crie da seguinte forma: `[JOAOZINHO] Projeto Playground Functions`
+  * Adicione uma descrição para o _Pull Request_, um título que o identifique, e clique no botão verde _"Create pull request"_. Crie da seguinte forma: `[JOAO-SILVA] Projeto Playground Functions`  
   * **Não se preocupe em preencher mais nada por enquanto!**
-  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-0x-project-playground-functions/pulls) e confira que o seu _Pull Request_ está criado
+  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-0x-project-playground-functions/pulls) e confira que o seu _Pull Request_ está criado. 😀
 
 ---
 
 ## Durante o desenvolvimento
 
-* Faça `commits` das alterações que você fizer no código regularmente
+* Faça `commits` das alterações que você fizer no código regularmente.
 
-* Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto
+* Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto.
 
 * Os comandos que você utilizará com mais frequência são:
   1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_
@@ -152,7 +150,7 @@ Para garantir a qualidade do seu código de forma a tê-lo mais legível, de mai
 npm run lint
 ```
 
-⚠ **NESTE PROJETO O ESLINT NÃO SERÁ AVALIADO. VOCÊ PODE RODAR O TESTE LOCALMENTE E FAZER AS CORREÇÕES SE DESEJAR!** ⚠
+⚠ **NESTE PROJETO O ESLINT NÃO SERÁ AVALIADO. VOCÊ PODE RODAR O TESTE LOCALMENTE E FAZER AS CORREÇÕES SE DESEJAR! MAS SÓ APÓS TER ENTREGUE 100% DOS REQUISITOS 😉** ⚠
 
 ---
 
@@ -167,19 +165,19 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 ### 👀 Observações importantes:
 
 * Para verificar se a sua função foi criada corretamente você pode instalar a extensão `code runner` no _VSCode_.
+* Utilize `console.log()` para testar as funções localmente, mas pode remover antes de fazer o push 😉.
 
 ---
 
 ### 1 - Crie uma função usando o operador &&
-
 JavaScript possui um operador lógico `&&`, o qual recebe dois valores e retorna `true` se ambos os valores são verdadeiros, e retorna `false` se algum dos valores não o for.
 
-Considerando isso, crie uma função chamada `compareTrue` que, ao receber dois booleanos:
+Considerando isso, implemente na função `compareTrue`, um código que ao receber dois parâmetros booleanos deve:
 
-- Retorne `true` se ambos os valores são verdadeiros;
-- Retorne `false` se um ou ambos os parâmetros forem falsos.
+- Retornar `true` se ambos os valores forem verdadeiros;
+- Retornar `false` se um ou ambos os parâmetros forem falsos.
 
-Faça a função utilizando o operador `&&`.
+Faça a função somente utilizando o operador `&&`.
 
 **O que será verificado:**
 
@@ -189,7 +187,7 @@ Faça a função utilizando o operador `&&`.
 
 - Retorne true quando se chamar a função compareTrue com dois parâmetros de valor true
 
-### 2 - Crie uma função que calcule a área do triângulo 
+### 2 - Crie uma função que calcule a área de um triângulo 
 
 Escreva uma função com o nome `calcArea` que receba um valor de base (chamado `base`) e outro de altura (chamado `height`) de um triângulo e retorne o cálculo da sua área.
 
@@ -243,7 +241,7 @@ Para tanto, considere que cada vitória vale 3 pontos e cada empate vale 1 ponto
 
 - Retorne 5 pontos quando o time tenha 1 vitória e 2 empates
 
-- Retorne 0 pontos quando  o time tenha 0 vitórias e 0 empates
+- Retorne 0 pontos quando o time tenha 0 vitórias e 0 empates
 
 ### 6 - Crie uma função que calcule a repetição do maior número
 
@@ -253,13 +251,13 @@ Exemplo: caso o parâmetro de `highestCount` seja uma array com valores `[9, 1, 
 
 **O que será verificado:**
 
-- Retorne 2 quando o parâmetro passado na funcão highestCount seja [9, 1, 2, 3, 9, 5, 7]
+- Retorne 2 quando o parâmetro passado na função highestCount seja [9, 1, 2, 3, 9, 5, 7]
 
-- Retorne 1 quando o parâmetro passado na funcão highestCount seja [0, 4, 4, 4, 9, 2, 1]
+- Retorne 1 quando o parâmetro passado na função highestCount seja [0, 4, 4, 4, 9, 2, 1]
 
-- Retorne 3 quando o parâmetro passado na funcão highestCount seja [0, 0, 0]
+- Retorne 3 quando o parâmetro passado na função highestCount seja [0, 0, 0]
 
-### 7 - Crie uma função  de Caça ao rato
+### 7 - Crie uma função de Caça ao Rato
 
 Imagine que existem dois gatos, os quais chamaremos de `cat1` e `cat2`, e que ambos estão atrás de um rato chamado `mouse`. Imagine que cada um dos três animais está em uma posição representada por um número.
 
@@ -271,18 +269,18 @@ Caso os gatos estejam na mesma distância do rato, a função deverá retornar a
 
 **O que será verificado:**
 
-- Retorne a string 'cat2' caso a função catAndMouse receba o parâmetros onde gato cat2 esteja a 2 unidades de distância do rato e cat1 esteja a 3 unidades de distância do rato
+- Retorne a string 'cat2' caso a função catAndMouse receba os parâmetros onde gato cat2 esteja a 2 unidades de distância do rato e cat1 esteja a 3 unidades de distância do rato
 
-- Retorne a string 'cat1' caso a função catAndMouse receba o parâmetros onde gato cat1 esteja a 6 unidades de distância do rato e cat2 esteja a 12 unidades de distância do rato
+- Retorne a string 'cat1' caso a função catAndMouse receba os parâmetros onde gato cat1 esteja a 6 unidades de distância do rato e cat2 esteja a 12 unidades de distância do rato
 
-- Retorne a string 'os gatos trombam e o rato foge' caso a função catAndMouse receba o parâmetros onde gatos estejam na mesma distância do rato
+- Retorne a string 'os gatos trombam e o rato foge' caso a função catAndMouse receba os parâmetros onde os gatos estejam na mesma distância do rato
 
 ### 8 - Crie uma função FizzBuzz
 
 Crie uma função chamada `fizzBuzz` que receba uma array de números e retorne uma array da seguinte forma:
 
-- Para cada número da Array que seja divisível apenas por 3, apresente uma string `"fizz"`;
-- Para cada número da Array que seja divisível apenas por 5, apresente uma string `"buzz"`;
+- Para cada número do Array que seja divisível apenas por 3, apresente uma string `"fizz"`;
+- Para cada número do Array que seja divisível apenas por 5, apresente uma string `"buzz"`;
 - Caso o número seja divisível por 3 e 5, retorne a string `"fizzBuzz"`;
 - Caso o número não possa ser dividido por 3 nem por 5, retorne a string `"bug!"`;
 
@@ -290,11 +288,11 @@ Exemplo: caso o parâmetro seja [2, 15, 7, 9, 45], sua função deverá retornar
 
 **O que será verificado:**
 
-- Retorne as strings ['bug!', 'fizzBuzz', 'bug!', 'fizz', 'fizzBuzz'] quando é passado os parâmetros [2, 15, 7, 9, 45] para função fizzBuzz
+- Retorne as strings ['bug!', 'fizzBuzz', 'bug!', 'fizz', 'fizzBuzz'] quando é passado os parâmetros [2, 15, 7, 9, 45] para a função fizzBuzz
 
-- Retorne as strings ['bug!', 'fizz'] quando é passado os parâmetros [7, 9] para função fizzBuzz
+- Retorne as strings ['bug!', 'fizz'] quando é passado os parâmetros [7, 9] para a função fizzBuzz
 
-- Retorne as strings ['fizz', 'buzz'] quando é passado os parâmetros [9, 25] para função fizzBuzz
+- Retorne as strings ['fizz', 'buzz'] quando é passado os parâmetros [9, 25] para a função fizzBuzz
 
 
 ### 9 - Crie uma função que Codifique e Decodifique
@@ -317,7 +315,7 @@ A segunda função deverá se chamar `decode` e faz o contrário de `encode` - o
 
 - Retorne uma string decodificada quando a função decode for utilizada
 
-### 10 - Crie uma função de Lista de tecnologias
+### 10 - Crie uma função de Lista de Tecnologias
 
 Crie uma função que recebe um array de nomes de tecnologias que você quer aprender. Essa função deve receber também um segundo parâmetro chamado `name` com um nome.
 
@@ -371,13 +369,13 @@ Caso o array venha vazio sua função deve retornar 'Vazio!'
 
 **O que será verificado:**
 
-- Retorne uma lista de objetos ordenados quando é passada uma lista com 5 tecnologias deve
+- Retorne uma lista de objetos ordenados quando é passada uma lista com 5 tecnologias
 
-- Retorne a mensagem de erro 'Vazio!' quando a lista tiver com 0 tecnologias
+- Retorne a mensagem de erro 'Vazio!' quando a lista não tiver tecnologias
 
 **Bônus**
 
-### 11 - Crie uma função de Número de telefone
+### 11 - Crie uma função de Número de Telefone
 
 Crie uma função chamada `generatePhoneNumber` que receba uma array com 11 números e retorne um número de telefone, respeitando parênteses, traços e espaços.
 
@@ -391,17 +389,17 @@ Exemplo: caso o parâmetro da função seja [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1], `
 
 - Retorne a string "Array com tamanho incorreto." caso o array tenha o tamanho diferente de 11
 
-- Retorne a string "não é possível gerar um número de telefone com esses valores" caso algum dos números da array seja menor que 0
+- Retorne a string "não é possível gerar um número de telefone com esses valores" caso algum dos números do array seja menor que 0
 
-- Retorne a string "não é possível gerar um número de telefone com esses valores" caso algum número da array seja maior que 9
+- Retorne a string "não é possível gerar um número de telefone com esses valores" caso algum número do array seja maior que 9
 
-- Retorne a string "não é possível gerar um número de telefone com esses valores" caso algum número da array se repeti 3 vezes ou mais
+- Retorne a string "não é possível gerar um número de telefone com esses valores" caso algum número do array se repetir 3 vezes ou mais
 
-- Retorne um número de telefone, respeitando parênteses, traços e espaços caso os números da array estejam de acordo com as restrições
+- Retorne um número de telefone, respeitando parênteses, traços e espaços caso os números do array estejam de acordo com as especificações
 
 ### 12 - Crie uma função de Condição de existência de um triângulo
 
-Um triângulo é composto de três linhas: `lineA`, `lineB` e `lineC`. Crie uma função chamada `triangleCheck` que deverá receber as três linhas como parâmetro e retornar se é possível formar um triângulo com os valores apresentados de cada linha
+Um triângulo é composto de três linhas: `lineA`, `lineB` e `lineC`. Crie uma função chamada `triangleCheck` que deverá receber as três linhas como parâmetro e retornar se é possível formar um triângulo com os valores apresentados de cada linha.
 
 Para tanto, tenha em mente algumas considerações:
 
@@ -415,11 +413,11 @@ Exemplo: o retorno de `triangleCheck(10, 14, 8)` deverá ser `true`.
 
 **O que será verificado:**
 
-- Retorne false quando a medida de qualquer um dos lados seja maior que a soma das medidas dos outros dois
+- Retorne false quando a medida de qualquer um dos lados seja maior que a soma das medidas dos outros dois.
 
-- Retorne false quando a medida de qualquer um dos lados seja menor que o valor absoluto da diferença entre essas medidas
+- Retorne false quando a medida de qualquer um dos lados seja menor que o valor absoluto da diferença entre essas medidas.
 
-- Retorne true quando a medida de qualquer um dos lados seja menor que a soma das medidas dos outros dois e maior que o valor absoluto da diferença entre essas medidas
+- Retorne true quando a medida de qualquer um dos lados seja menor que a soma das medidas dos outros dois e maior que o valor absoluto da diferença entre essas medidas.
 
 ### 13 - Crie uma função de boas vindas ao Bar da Trybe!
 
@@ -465,14 +463,12 @@ String retornada:
 
 Para **"entregar"** seu projeto, siga os passos a seguir:
 
-* Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas
+* Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque outras pessoas estudantes da sua turma
   * No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**
   * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**
   * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-0x`
 
 Se ainda houver alguma dúvida sobre como entregar seu projeto, [aqui tem um video explicativo](https://vimeo.com/362189205).
-
-⚠ Lembre-se que garantir que todas as _issues_ comentadas pelo **Lint** estão resolvidas! ⚠
 
 ---
 
@@ -482,6 +478,4 @@ Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência 
 
 Link: [FORMULÁRIO DE AVALIAÇÃO DE PROJETO](https://be-trybe.typeform.com/to/ZTeR4IbH)
 
-O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. Então, não se assuste se isso acontecer, ok?
-
----
+O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido 😉.
