@@ -22,13 +22,13 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 - [Requisitos do projeto](#requisitos-do-projeto)
 
     `Requisitos obrigatórios:`
-    - [1 - Crie uma função usando o operador &&](#1---crie-uma-função-usando-o-operador-)
-    - [2 - Crie uma função que calcule a área do triângulo](#2---crie-uma-função-que-calcule-a-área-do-triângulo)
+    - [1 - Crie uma função usando o operador &&](#1---crie-uma-função-usando-o-operador)
+    - [2 - Crie uma função que calcule a área de um triângulo](#2---crie-uma-função-que-calcule-a-área-de-um-triângulo)
     - [3 - Crie uma função que divida a frase](#3---crie-uma-função-que-divida-a-frase)
     - [4 - Crie uma função que use concatenação de strings](#4---crie-uma-função-que-use-concatenação-de-strings)
     - [5 - Crie uma função que calcule a quantidade de pontos no futebol](#5---crie-uma-função-que-calcule-a-quantidade-de-pontos-no-futebol)
     - [6 - Crie uma função que calcule a repetição do maior número](#6---crie-uma-função-que-calcule-a-repetição-do-maior-número)
-    - [7 - Crie uma função de Caça ao rato](#7---crie-uma-função--de-caça-ao-rato)
+    - [7 - Crie uma função de Caça ao rato](#7---crie-uma-função-de-caça-ao-rato)
     - [8 - Crie uma função FizzBuzz](#8---crie-uma-função-fizzbuzz)
     - [9 - Crie uma função que Codifique e Decodifique](#9---crie-uma-função-que-codifique-e-decodifique)
     - [10 - Crie uma função de Lista de tecnologias](#10---crie-uma-função-de-lista-de-tecnologias)
@@ -36,7 +36,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
     `Requisitos bônus:`
     - [11 - Crie uma função de Número de telefone](#11---crie-uma-função-de-número-de-telefone)
     - [12 - Crie uma função de Condição de existência de um triângulo](#12---crie-uma-função-de-condição-de-existência-de-um-triângulo)
-    - [13 - Crie uma função de Bem vindo ao Bar da Trybe!](#13---crie-uma-função-de-bem-vindo-ao-bar-da-trybe)
+    - [13 - Crie uma função de Boas Vindas ao Bar da Trybe!](#13---crie-uma-função-de-boas-vindas-ao-bar-da-trybe!)
 - [Depois de terminar o desenvolvimento](#depois-de-terminar-o-desenvolvimento)
 - [Revisando um pull request](#revisando-um-pull-request)
 - [Avisos Finais](#avisos-finais)
@@ -170,6 +170,7 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 ---
 
 ### 1 - Crie uma função usando o operador &&
+
 JavaScript possui um operador lógico `&&`, o qual recebe dois valores e retorna `true` se ambos os valores são verdadeiros, e retorna `false` se algum dos valores não o for.
 
 Considerando isso, implemente na função `compareTrue`, um código que ao receber dois parâmetros booleanos deve:
@@ -187,7 +188,7 @@ Faça a função somente utilizando o operador `&&`.
 
 - Retorne true quando se chamar a função compareTrue com dois parâmetros de valor true
 
-### 2 - Crie uma função que calcule a área de um triângulo 
+### 2 - Crie uma função que calcule a área de um triângulo
 
 Escreva uma função com o nome `calcArea` que receba um valor de base (chamado `base`) e outro de altura (chamado `height`) de um triângulo e retorne o cálculo da sua área.
 
@@ -259,9 +260,9 @@ Exemplo: caso o parâmetro de `highestCount` seja uma array com valores `[9, 1, 
 
 ### 7 - Crie uma função de Caça ao Rato
 
-Imagine que existem dois gatos, os quais chamaremos de `cat1` e `cat2`, e que ambos estão atrás de um rato chamado `mouse`. Imagine que cada um dos três animais está em uma posição representada por um número.
+Imagine que existem dois gatos, os quais chamaremos de `cat1` e `cat2`, e que ambos estão caçando um mesmo rato chamado `mouse`. Imagine que os animais estão em uma reta, cada um em uma posição de representada por um número.
 
-Sabendo disso, crie uma função chamada `catAndMouse` que, ao receber a posição de `mouse`, `cat1` e `cat2`, **nessa ordem**, calcule as distâncias entre o rato e os gatos e retorne qual dos felinos irá alcançar o rato primeiro (sendo aquele que estará mais perto).
+Sabendo disso, crie uma função chamada `catAndMouse` que, ao receber a posição de `mouse`, `cat1` e `cat2`, **nessa ordem**, calcule as distâncias entre o rato e cada um dos gatos, em seguida, retorne qual dos felinos irá alcançar o rato primeiro (aquele que estiver mais perto do rato).
 
 Exemplo: caso o gato `cat2` esteja a 2 unidades de distância do rato, e `cat1` esteja a 3 unidades, sua função deverá retornar `"cat2"`.
 
