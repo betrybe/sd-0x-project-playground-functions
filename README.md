@@ -170,6 +170,7 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 ---
 
 ### 1 - Crie uma função usando o operador &&
+
 JavaScript possui um operador lógico `&&`, o qual recebe dois valores e retorna `true` se ambos os valores são verdadeiros, e retorna `false` se algum dos valores não o for.
 
 Considerando isso, implemente na função `compareTrue`, um código que ao receber dois parâmetros booleanos deve:
