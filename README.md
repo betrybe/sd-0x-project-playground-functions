@@ -22,8 +22,8 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 - [Requisitos do projeto](#requisitos-do-projeto)
 
     `Requisitos obrigatórios:`
-    - [1 - Crie uma função usando o operador &&](#1---Crie-uma-função-usando-o-operador-&&)
-    - [2 - Crie uma função que calcule a área de um triângulo](#2---Crie-uma-função-que-calcule-a-área-de-um-triângulo)
+    - [1 - Crie uma função usando o operador &&](#1---crie-uma-função-usando-o-operador-&&)
+    - [2 - Crie uma função que calcule a área de um triângulo](#2---crie-uma-função-que-calcule-a-área-de-um-triângulo)
     - [3 - Crie uma função que divida a frase](#3---crie-uma-função-que-divida-a-frase)
     - [4 - Crie uma função que use concatenação de strings](#4---crie-uma-função-que-use-concatenação-de-strings)
     - [5 - Crie uma função que calcule a quantidade de pontos no futebol](#5---crie-uma-função-que-calcule-a-quantidade-de-pontos-no-futebol)
@@ -36,7 +36,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
     `Requisitos bônus:`
     - [11 - Crie uma função de Número de telefone](#11---crie-uma-função-de-número-de-telefone)
     - [12 - Crie uma função de Condição de existência de um triângulo](#12---crie-uma-função-de-condição-de-existência-de-um-triângulo)
-    - [13 - Crie uma função de Boas Vindas ao Bar da Trybe!](#13---Crie-uma-função-de-boas-vindas-ao-Bar-da-Trybe!)
+    - [13 - Crie uma função de Boas Vindas ao Bar da Trybe!](#13---crie-uma-função-de-boas-vindas-ao-bar-da-trybe!)
 - [Depois de terminar o desenvolvimento](#depois-de-terminar-o-desenvolvimento)
 - [Revisando um pull request](#revisando-um-pull-request)
 - [Avisos Finais](#avisos-finais)
