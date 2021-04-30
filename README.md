@@ -23,7 +23,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 
     `Requisitos obrigatórios:`
     - [1 - Crie uma função usando o operador &&](#1---Crie-uma-função-usando-o-operador-&&)
-    - [2 - Crie uma função que calcule a área do triângulo](#2---Crie-uma-função-que-calcule-a-área-do-triângulo)
+    - [2 - Crie uma função que calcule a área de um triângulo](#2---Crie-uma-função-que-calcule-a-área-de-um-triângulo)
     - [3 - Crie uma função que divida a frase](#3---crie-uma-função-que-divida-a-frase)
     - [4 - Crie uma função que use concatenação de strings](#4---crie-uma-função-que-use-concatenação-de-strings)
     - [5 - Crie uma função que calcule a quantidade de pontos no futebol](#5---crie-uma-função-que-calcule-a-quantidade-de-pontos-no-futebol)
@@ -187,7 +187,7 @@ Faça a função somente utilizando o operador `&&`.
 
 - Retorne true quando se chamar a função compareTrue com dois parâmetros de valor true
 
-### 2 - Crie uma função que calcule a área do triângulo
+### 2 - Crie uma função que calcule a área de um triângulo
 
 Escreva uma função com o nome `calcArea` que receba um valor de base (chamado `base`) e outro de altura (chamado `height`) de um triângulo e retorne o cálculo da sua área.
 
