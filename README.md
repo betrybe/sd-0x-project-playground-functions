@@ -19,6 +19,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
   - [Durante o desenvolvimento](#durante-o-desenvolvimento)
 - [Como desenvolver](#como-desenvolver)
   - [Linter](#linter)
+  - [Avaliador Automático](#avaliador-automático)
 - [Requisitos do projeto](#requisitos-do-projeto)
 
     `Requisitos obrigatórios:`
@@ -141,8 +142,9 @@ Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://
   5. `git push -u nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
 
 ---
+## Como desenvolver
 
-## Linter
+### Linter
 
 Para garantir a qualidade do seu código de forma a tê-lo mais legível, de mais fácil manutenção e seguindo as boas práticas de desenvolvimento nós utilizamos neste projeto o linter `ESLint`. Para rodar o linter localmente no seu projeto, execute o comando abaixo:
 
@@ -151,6 +153,33 @@ npm run lint
 ```
 
 ⚠ **NESTE PROJETO O ESLINT NÃO SERÁ AVALIADO. VOCÊ PODE RODAR O TESTE LOCALMENTE E FAZER AS CORREÇÕES SE DESEJAR! MAS SÓ APÓS TER ENTREGUE 100% DOS REQUISITOS 😉** ⚠
+
+### Avaliador automático
+
+* Os requisitos do seu projeto são avaliados automaticamente
+
+Para verificar se a sua avaliação foi computada com sucesso, você pode verificar os **detalhes da execução do avaliador**.
+
+* Na página do seu _Pull Request_, acima do "botão de merge", procure por _**"Evaluator job"**_ e clique no link _**"Details"**_;
+
+* Na página que se abrirá, procure pela linha _**"Evaluator step"**_ e clique nela;
+
+* Caso tenha dúvidas, procure as pessoas instrutoras.
+
+Para rodar o avaliador automático localmente no seu projeto, execute um dos comandos abaixo:
+
+
+Para executar todos os testes utilize:
+```bash
+npm test
+```
+
+
+***ou***
+Para executar um arquivo de teste específico, utilize `npm test nomeDoArquivoDeTeste`:
+```bash
+npm test compareTrue
+```
 
 ---
 
