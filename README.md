@@ -86,7 +86,7 @@ Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://
 ## Antes de começar a desenvolver
 
 1. Clone o repositório
-  * `git clone git@github.com:tryber/sd-0x-project-playground-functions.git`.
+  * `git clone git@github.com:tryber/sd-0x-project-playground-functions.git`
   * Entre na pasta do repositório que você acabou de clonar:
     * `cd sd-0x-project-playground-functions`
 
@@ -142,6 +142,7 @@ Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://
   5. `git push -u nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
 
 ---
+
 ## Como desenvolver
 
 ### Linter
