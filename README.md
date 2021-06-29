@@ -492,7 +492,7 @@ String retornada:
 
 ---
 
-## Depois de terminar o desenvolvimento
+## (Opcional) - Depois de terminar o desenvolvimento
 
 Para **"entregar"** seu projeto, siga os passos a seguir:
 
