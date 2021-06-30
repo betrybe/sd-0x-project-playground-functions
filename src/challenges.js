@@ -20,15 +20,36 @@ function calcArea(base, height) {
 console.log(calcArea(51, 1));
 
 // Desafio 3
-function splitSentence() {
+let phrase = 'vamo que vamo';
+function splitSentence(divFrase) {
   // seu código aqui
-
+  let newVector = [''];
+  let cont = 0;
+  for (key in divFrase) {
+    if (divFrase[key] !== ' ') {
+      newVector[cont] = newVector[cont] + divFrase[key];
+    } else {
+      cont += 1;
+      newVector[cont] = '';
+      // newVector[cont] = newVector[cont] + divFrase[key];
+    }
+  }
+  return newVector;
 }
+console.log(splitSentence(phrase));
 
 // Desafio 4
-function concatName() {
+let names = ['Lucas', 'Cassiano', 'Ferraz', 'Paolillo'];
+function concatName(name) {
   // seu código aqui
+  let invertName = '';
+  for (key in name){
+    invertName = name[key] + ', ' + name[0];
+  }
+  return invertName;
 }
+console.log(concatName(names));
+
 
 // Desafio 5
 function footballPoints(wins, ties) {
@@ -50,7 +71,7 @@ function highestCount(numbersArray) {
     if (numbersArray[teste] > acum) {
       acum = numbersArray[teste];
     }
-  } 
+  }
   // for(let indexValue = 0; indexValue < numbersArray.length; indexValue += 1){
   for (let quant in numbersArray) {
     if (numbersArray[quant] === acum) {
