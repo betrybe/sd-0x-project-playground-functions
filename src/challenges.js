@@ -8,7 +8,6 @@ function compareTrue(value1,value2) {
   }
   return result;
 }
-
 console.log(compareTrue(true,true));
 
 // Desafio 2
@@ -17,13 +16,13 @@ function calcArea(base,height) {
   let area = (base*height)/2;
   return area;
 }
-
 console.log(calcArea(51,1));
 
 
 // Desafio 3
-function splitSentence() {
+function splitSentence(string) {
   // seu código aqui
+
 }
 
 // Desafio 4
@@ -32,14 +31,35 @@ function concatName() {
 }
 
 // Desafio 5
-function footballPoints() {
+function footballPoints(wins,ties) {
   // seu código aqui
+  let valueWins = 3 * wins;
+  let totalPoints = valueWins + ties;
+  return totalPoints;
 }
+console.log(footballPoints(0,0));
 
 // Desafio 6
-function highestCount() {
+let checkArray = [1, 9, 2, 3, 9, 5, 7];
+function highestCount(numbersArray) {
   // seu código aqui
-}
+  let cont = 0;
+  let acum = numbersArray[0];
+  let add = 0;
+  // for(let index = 1; index < numbersArray.length; index += 1){
+  for(teste in numbersArray){
+    if(numbersArray[teste] > acum){
+      acum = numbersArray[teste];
+    }
+  } 
+  for(let indexValue = 0; indexValue < numbersArray.length; indexValue += 1){
+    if(numbersArray[indexValue] === acum){
+      add = add + 1;
+    }
+  }
+  return add;
+  }
+console.log(highestCount(checkArray));
 
 // Desafio 7
 function catAndMouse() {
