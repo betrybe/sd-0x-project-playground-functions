@@ -1,7 +1,8 @@
 // Desafio 1
 function compareTrue(value1, value2) {
   // seu código aqui
-  if (value1 === true && value2 === true){
+  let result;
+  if (value1 === true && value2 === true) {
     result = true;
   } else {
     result = false;
@@ -45,35 +46,36 @@ function highestCount(numbersArray) {
   let acum = numbersArray[0];
   let add = 0;
   // for(let index = 1; index < numbersArray.length; index += 1){
-  for (let teste in numbersArray){
-    if (numbersArray[teste] > acum){
+  for (let teste in numbersArray) {
+    if (numbersArray[teste] > acum) {
       acum = numbersArray[teste];
     }
   } 
-  //for(let indexValue = 0; indexValue < numbersArray.length; indexValue += 1){
-  for (let quant in numbersArray){
-    if (numbersArray[quant] === acum){
-      add = add + 1;
+  // for(let indexValue = 0; indexValue < numbersArray.length; indexValue += 1){
+  for (let quant in numbersArray) {
+    if (numbersArray[quant] === acum) {
+      add += 1;
     }
   }
-    return add;
-  }
+  return add;
+}
 console.log(highestCount(checkArray));
 
 // Desafio 7
 function catAndMouse(mouse, cat1, cat2) {
   // seu código aqui
-  difPosCat1 = cat1 - mouse;
-  if (difPosCat1 < 0){
+  let catWinner;
+  let difPosCat1 = cat1 - mouse;
+  if (difPosCat1 < 0) {
     difPosCat1 = difPosCat1 * (-1);
   }
-  difPosCat2 = cat2 - mouse;
-  if (difPosCat2 < 0){
+  let difPosCat2 = cat2 - mouse;
+  if (difPosCat2 < 0) {
     difPosCat2 = difPosCat2 * (-1);
   }
-  if (difPosCat1 < difPosCat2){
+  if (difPosCat1 < difPosCat2) {
     catWinner = 'cat1';
-  } else if (difPosCat1 > difPosCat2){
+  } else if (difPosCat1 > difPosCat2) {
     catWinner = 'cat2';
   } else {
     catWinner = 'os gatos trombam e o rato foge';
@@ -88,14 +90,15 @@ let vector = [9, 25];
 function fizzBuzz(arrayDeNumeros) {
   // seu código aqui
   let secondVector = [];
-  for (numbers in arrayDeNumeros){
+  let dado;
+  for (let numbers in arrayDeNumeros) {
     let divTree = arrayDeNumeros[numbers] % 3;
     let divFive = arrayDeNumeros[numbers] % 5;
-    if (divTree === 0 && divFive === 0){
+    if (divTree === 0 && divFive === 0) {
       dado = 'fizzBuzz';
-    } else if (divTree === 0){
+    } else if (divTree === 0) {
       dado = 'fizz';
-    } else if (divFive === 0){
+    } else if (divFive === 0) {
       dado = 'buzz';
     } else {
       dado = 'bug!';
@@ -107,12 +110,67 @@ function fizzBuzz(arrayDeNumeros) {
 console.log(fizzBuzz(vector));
 
 // Desafio 9
-function encode() {
+let stringValue = 'hi there';
+function encode(stringParam) {
   // seu código aqui
+  let res;
+  let text = '';
+  for (let index in stringParam) {
+    switch (stringParam[index]) {
+    case 'a':
+      res = 1;
+      break;
+    case 'e':
+      res = 2;
+      break;
+    case 'i':
+      res = 3;
+      break;
+    case 'o':
+      res = 4;
+      break;
+    case 'u':
+      res = 5;
+      break;
+    default:
+      res = stringParam[index];
+    }
+    text += res;
+  }
+  return text;
 }
-function decode() {
+console.log(encode(stringValue));
+
+let newStringValue = 'h3 th2r2';
+function decode(strParam) {
   // seu código aqui
+  let resultado;
+  let textDec = '';
+  for (let index in strParam) {
+    switch (strParam[index]) {
+    case '1':
+      resultado = 'a';
+      break;
+    case '2':
+      resultado = 'e';
+      break;
+    case '3':
+      resultado = 'i';
+      break;
+    case '4':
+      resultado = 'o';
+      break;
+    case '5':
+      resultado = 'u';
+      break;
+    default:
+      resultado = strParam[index];
+    }
+    textDec += resultado;
+  }
+  return textDec;
 }
+console.log(decode(newStringValue));
 
 module.exports = {
   calcArea,
